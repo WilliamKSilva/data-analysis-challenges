@@ -1,0 +1,7 @@
+id_usuario,canal_origem,visitou_site,fez_compra
+1,Instagram,True,True
+2,Google Ads,True,False
+3,Instagram,True,False
+4,Orgânico,True,True
+5,Instagram,False,False
+6,Google Ads,True,True
