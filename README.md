@@ -1,38 +1,40 @@
-# Desafio 1 – SQL: Clientes Ativos e Receita
 
-### Perguntas:
+# Challenge 1 – SQL: Active Clients and Revenue
 
-1. Escreva uma query para listar os clientes ativos nos últimos 6 meses.\
+### Questions:
 
-2. Calcule a receita total e o ticket médio por cliente nesse período.\
+1. Write a query to list the clients who were active in the last 6 months.  
 
-3. (Bônus) Liste os 5 clientes com maior crescimento de receita comparando os 6 meses mais recentes com os 6 anteriores.
+2. Calculate the total revenue and average ticket per client in this period.  
 
-# Desafio 2 - Pandas: Análise Exploratória utilizando Pandas
+3. (Bonus) List the top 5 clients with the highest revenue growth comparing the last 6 months to the 6 months before that.  
 
-### Tarefas:
+# Challenge 2 – Pandas: Exploratory Analysis using Pandas
 
-1. Carregue os dados com Pandas, e crie uma nova coluna chamada dias_desde_ultima_compra (assumindo data atual = "2025-07-17").
+### Tasks:
 
-2. Crie uma coluna booleana possivel_churn, que é True se o cliente não comprou nos últimos 180 dias.
+1. Load the data with Pandas, and create a new column called `dias_desde_ultima_compra` (assuming current date = "2025-07-17").
 
-3. Calcule a média de total_gasto dos clientes marcados como possivel_churn == True.
+2. Create a boolean column `possivel_churn`, which is True if the customer hasn’t made a purchase in the last 180 days.
 
-# Desafio 3 - Pandas: Análise Exploratória utilizando Pandas
+3. Calculate the average `total_gasto` for clients marked as `possivel_churn == True`.
 
-### Tarefas:
+# Challenge 3 – Pandas: Monthly Revenue Analysis
 
-1. Crie uma coluna mes_ano no formato "YYYY-MM".
+### Tasks:
 
-2. Calcule o faturamento total por mês.
+1. Create a column `mes_ano` in the format "YYYY-MM".
 
-3. Gere um gráfico de linha mostrando a evolução mensal.
+2. Calculate total revenue per month.
 
-# Desafio 4 – Pandas: Produtos Mais Vendidos
-Você tem dois DataFrames: vendas e produtos.
+3. Generate a line chart showing monthly revenue evolution.
 
-1. Junte as tabelas usando merge.
+# Challenge 4 – Pandas: Most Sold Products
 
-2. Calcule o total vendido por produto (quantidade * preco_unitario).
+You have two DataFrames: `vendas` and `produtos`.
 
-3. Liste os produtos do mais vendido ao menos vendido.
+1. Merge the tables using `merge`.
+
+2. Calculate total sold per product (`quantidade * preco_unitario`).
+
+3. List products from most sold to least sold.
