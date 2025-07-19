@@ -1,12 +1,12 @@
-# Desafio 4 – Conversão por Canal de Marketing
-# Você tem o seguinte DataFrame:
+# Challenge 6 – Conversion Rate by Marketing Channel
+# You have the following DataFrame:
 
-# Tarefas:
-# 1. Calcule a taxa de conversão por canal (fez_compra == True / visitou_site == True).
+# Tasks:
+# Calculate the conversion rate per channel (fez_compra == True / visitou_site == True).
 
-# 2. Ordene os canais da maior para a menor taxa.
+# Sort the channels from highest to lowest conversion rate.
 
-# 3. Crie um gráfico de barras com os resultados.
+# Create a bar chart with the results.
 
 import pandas as pd
 import matplotlib.pyplot as plt

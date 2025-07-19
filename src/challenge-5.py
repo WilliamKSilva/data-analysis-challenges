@@ -1,12 +1,12 @@
-# Desafio 3 – Detectar Duplicatas e Corrigir Dados
-# Você recebeu um arquivo de leads de marketing com erros.
+# Challenge 5 – Detect Duplicates and Clean Data
+# You received a marketing leads file containing errors.
 
-# Tarefas:
-# 1. Identifique e remova registros duplicados baseando-se no email.
+# Tasks:
+# Identify and remove duplicate records based on the email.
 
-# 2. Padronize os nomes para título (ex: Ana, Bruno Lima) usando .str.title().
+# Standardize the names to title case (e.g., Ana, Bruno Lima) using .str.title().
 
-# 3. Verifique se há datas inválidas ou faltantes.
+# Check for invalid or missing dates.
 
 import pandas as pd
 

@@ -38,3 +38,23 @@ You have two DataFrames: `vendas` and `produtos`.
 2. Calculate total sold per product (`quantidade * preco_unitario`).
 
 3. List products from most sold to least sold.
+
+# Challenge 5 – Detect Duplicates and Clean Data
+You received a marketing leads file containing errors.
+
+### Tasks:
+1. Identify and remove duplicate records based on the email.
+
+2. Standardize the names to title case (e.g., Ana, Bruno Lima) using .str.title().
+
+3. Check for invalid or missing dates.
+
+# Challenge 6 – Conversion Rate by Marketing Channel
+You have the following DataFrame:
+
+### Tasks:
+1. Calculate the conversion rate per channel (fez_compra == True / visitou_site == True).
+
+2. Sort the channels from highest to lowest conversion rate.
+
+3. Create a bar chart with the results.
